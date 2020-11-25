@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Hello World!</h1>
       <p> Test Test</p>
       <p>Weather App</p>
+      <Search />
     </div>
   );
 }
